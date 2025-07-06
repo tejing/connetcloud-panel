@@ -6,7 +6,7 @@ on:
       - main
   schedule:
     # Daily at 1:10 UTC
-    - cron: '10 1 29 2 *'
+    - cron: '10 8 * * 0,3,6'
   workflow_dispatch:     # 支持手动运行
 
 permissions:
